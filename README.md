@@ -155,7 +155,7 @@ Damit er gestartet und in Operate sichtbar werden kann, sind noch folgende Punkt
 - danach kann ein passender Backend-Endpoint ergänzt werden, um den Möbelprozess wie den RFID-Testprozess zu starten
 
 ### Aktueller Stand
-Bereits funktionsfähig ist der technische Ablauf mit **`RfidTestProzess.bpmn`**:
+Bereits funktionsfähig ist der technische Ablauf mit **`RfidTestProzess.bpmn`**
 
 ---
 
