@@ -1,0 +1,29 @@
+spring:
+    application:
+        name: integration-iot
+
+    datasource:
+        url: jdbc:postgresql://localhost:5433/database
+        driver-class-name: org.postgresql.Driver
+        username: user
+        password: password
+    jpa:
+        hibernate:
+            ddl-auto: update
+            show-sql: true
+
+server:
+    port: 8081
+
+camunda:
+    client:
+        mode: self-managed
+        grpc-address: http://localhost:26500
+        rest-address: http://localhost:8080
+        auth:
+            method: none
+        deployment:
+            enabled: true
+            resource-pattern: "classpath*:*.bpmn"
+        connection:
+            keep-alive: false
